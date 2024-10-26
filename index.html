@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>ID Card</title>
+</head>
+
+<body>
+    <main>
+        <article class="id-card">
+            <header class="id-card-header">
+                <img src="img/profile1.jpg" alt="Profile picture of John Doe">
+                <h1 class="name">
+                    <input type="text" id="inputName" value="John Doe" />
+                </h1>
+                <h2 class="handler">
+                    <input type="text" id="inputHandler" value="@your_name" />
+                </h2>
+                <h2 class="institution">
+                    <input type="text" id="inputInstitution" value="University of Science and Technology of Southern Philippines" />
+                </h2>
+            </header>
+            <section class="id-card-details">
+                <p><strong>Age:</strong> <span id="age">
+                    <input type="number" id="inputAge" value="20" />
+                </span></p>
+                <p><strong>Course:</strong> <span id="course">
+                    <input type="text" id="inputCourse" value="Bachelor of Science in Computer Science" />
+                </span></p>
+                <p><strong>Year Level:</strong> <span id="year">
+                    <input type="text" id="inputYear" value="4th Year" />
+                </span></p>
+                <p><strong>Motto in Life:</strong> <span id="motto">
+                    <input type="text" id="inputMotto" value="Knowledge is power." />
+                </span></p>
+            </section>
+            <footer class="id-card-footer">
+                <p><strong>ID:</strong> <span id="id">
+                    <input type="text" id="inputId" value="123556789" />
+                </span></p>
+            </footer>
+            <!-- Update Button -->
+            <button type="button" id="updateButton">Update Details</button>
+        </article>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

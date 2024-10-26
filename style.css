@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.id-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 400px;
+
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
+
+/* card header */
+
+.id-card-header {
+  background-color: 	#87CEEB;
+  color: white;
+  padding: 20px;
+}
+
+.id-card-header img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.id-card-header .name {
+  font-size: 24px;
+  margin: 0;
+}
+
+.id-card-header .handler {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.id-card-header .institution {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.id-card-details {
+  padding: 20px;
+  text-align: left;
+}
+
+.id-card-details p {
+  margin: 10px 0;
+}
+
+.id-card-details strong {
+  display: inline-block;
+  width: 120px; /* Adjust the width as needed */
+  vertical-align: top;
+}
+
+.id-card-details span {
+  display: inline-block;
+  width: 200px; /* Adjust the width as needed */
+  vertical-align: top;
+}
+
+.id-card-footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 14px;
+  color: 	#87CEEB;
+}
+
+#updateButton {
+  background-color: 	#87CEEB;
+  color: white;
+  border: none;
+
+  padding: 10px 20px;
+  margin: 20px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#updateButton:hover {
+  background-color: #45a049;
+}
